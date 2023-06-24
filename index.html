@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Whether App</title>
+</head>
+<body>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false" />
+            <button><img src="./search.png" alt="search-icon"></button>
+        </div>
+        <div class="weather hidden">
+            <img src="./invalid.webp" alt="" class="weather-icon">
+            <h2 class="temp">0°C</h2>
+            <h1 class="city">No city found!</h1>
+            <div class="details">
+              <div class="col">
+                <img src="./humidity.png" alt="Humidity-icon">
+                <div>
+                  <p class="humidity">0%</p>
+                  <p>Humidity</p>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./wind.png" alt="wind-icon">
+                <div>
+                  <p class="wind">0 Km/h</p>
+                  <p>wind Speed</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
